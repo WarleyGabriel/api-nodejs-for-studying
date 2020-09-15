@@ -1,0 +1,14 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/test/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "mocha": "^8.1.1",
+    "nock": "^13.0.4"
+  }
+}
