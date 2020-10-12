@@ -2,12 +2,14 @@
   "main": "index.js",
   "scripts": {
     "start": "npx ./src/index.js",
-    "test": "npx mocha ./src/**/*.test.js"
+    "test": "npx mocha ./src/**/*.test.js",
+    "test:watch": "npx mocha ./src/**/*.test.js -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mongoose": "^5.10.9",
     "pg": "^8.3.3",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.5"
